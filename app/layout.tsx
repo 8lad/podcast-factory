@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   const bodyClasses = clsx(
     dm_sans.className,
-    'flex flex-col min-h-screen w-full bg-main-background-color text-main-text-color'
+    'flex flex-col min-h-screen w-full bg-main-background-color text-main-text-color overflow-x-hidden'
   );
   return (
     <html lang="en">

@@ -9,7 +9,7 @@ export const HeaderLogo = () => {
   const isMainPage = pathname === '/';
 
   return isMainPage ? (
-    <div className="max-w-[160px] w-[100%]">
+    <div className="max-w-[160px] w-[100%] shrink-0">
       <Image
         src="/logo.svg"
         width={160}
